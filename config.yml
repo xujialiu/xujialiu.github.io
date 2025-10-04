@@ -12,7 +12,7 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
-mainsections: ["posts"]
+mainsections: ["blogs", "papermod"]
 
 minify:
   disableXML: true
@@ -38,15 +38,15 @@ languages:
         - name: Tags
           url: tags/
           weight: 10
-        - name: Categories
-          url: categories/
-          weight: 20
+        # - name: Categories
+        #   url: categories/
+        #   weight: 20
         - name: Search
           url: search/
           weight: 30
-        # - name: WiKi
-        #   url: https://github.com/adityatelange/hugo-PaperMod/wiki/
-        #   weight: 1
+        - name: Blogs
+          url: posts/
+          weight: 1
 
 outputs:
   home:
@@ -96,18 +96,15 @@ params:
     - name: github
       title: View my Github
       url: "https://github.com/xujialiu"
-    # - name: Discord
-    #   title: Join discord community
-    #   url: "https://discord.gg/ahpmTvhVmp"
     - name: X
       title: X/Twitter
       url: "https://x.com/xujialiuphd"
-    - name: orcid
+    - name: ORCID
       title: orcid
       url: "https://orcid.org/0000-0002-8774-9289"
-    # - name: KoFi
-    #   title: Buy me a Ko-Fi :)
-    #   url: "https://ko-fi.com/adityatelange"
+    - name: Email
+      title: email
+      url: "mailto:xujialiuphd@gmail.com"
 
   # editPost:
   #   URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
